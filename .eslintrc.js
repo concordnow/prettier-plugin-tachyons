@@ -3,13 +3,10 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: [
-    'airbnb-base',
-  ],
+  extends: ["airbnb-base", "plugin:jest/recommended"],
   parserOptions: {
     ecmaVersion: 13,
-    sourceType: 'module',
+    sourceType: "module",
   },
-  rules: {
-  },
+  rules: {},
 };
