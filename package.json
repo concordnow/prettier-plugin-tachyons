@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint *.js",
-    "test": "jest"
+    "test": "jest",
+    "release": "release-it"
   },
   "repository": {
     "type": "git",
@@ -30,13 +31,15 @@
     "npm": "8.1.2"
   },
   "devDependencies": {
+    "@release-it/keep-a-changelog": "^2.3.0",
     "eslint": "^8.6.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jest": "^25.3.4",
     "jest": "^27.4.7",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "release-it": "^14.12.1"
   },
   "peerDependencies": {
     "prettier": "^2.0.0"
