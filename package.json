@@ -1,0 +1,27 @@
+{
+  "name": "prettier-plugin-tachyons",
+  "version": "1.0.0",
+  "description": "Sort Tachyons classes with Prettier.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/concordnow/prettier-plugin-tachyons.git"
+  },
+  "keywords": [
+    "prettier",
+    "plugin",
+    "tachyonscss",
+    "tachyons",
+    "sort",
+    "order"
+  ],
+  "author": "Concord Worlwide Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/concordnow/prettier-plugin-tachyons/issues"
+  },
+  "homepage": "https://github.com/concordnow/prettier-plugin-tachyons#readme"
+}
