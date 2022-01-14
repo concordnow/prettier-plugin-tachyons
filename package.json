@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/concordnow/prettier-plugin-tachyons/issues"
   },
-  "homepage": "https://github.com/concordnow/prettier-plugin-tachyons#readme"
+  "homepage": "https://github.com/concordnow/prettier-plugin-tachyons#readme",
+  "volta": {
+    "node": "16.13.2",
+    "npm": "8.1.2"
+  }
 }
