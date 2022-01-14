@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test glimmer parser basic glimmer component 1`] = `
+"<article class=\\"\\">
+  <h1 class=\\"\\">Glimmer test</h1>
+  <p class=\\"\\">You have clicked the button {{this.count}} times.</p>
+  <button class=\\"\\" type=\\"button\\" {{on \\"click\\" this.increment}}>
+    Click
+  </button>
+</article>"
+`;

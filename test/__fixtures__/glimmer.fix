@@ -1,0 +1,10 @@
+<article class="pa3 pa5-ns">
+    <h1 class="f3 f1-m f-headline-l">Glimmer test</h1>
+    <p class={{concat 'measure lh-copy' ' red'}}>You have clicked the button {{this.count}} times.</p>
+    <button
+      class="f6 f5-l button-reset fl pv3 tc bn bg-animate bg-black-70 hover-bg-black white pointer w-100 w-25-m w-20-l {{concat (if (eq foo 'foo') 'br2-ns ' 'red ') 'br--right-ns'}}"
+      type="button"{{on "click" this.increment}}
+    >
+      Click
+    </button>
+</article>
